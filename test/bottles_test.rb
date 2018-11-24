@@ -1,6 +1,6 @@
 gem 'minitest', '~> 5.4'
 require 'minitest/autorun'
-require_relative '../lib/bottles'
+require_relative '../bottles'
 
 class BottlesTest < Minitest::Test
   def test_the_first_verse
@@ -40,7 +40,7 @@ Take it down and pass it around, no more bottles of beer on the wall.
   end
 
   def test_verse_0
-    
+
     expected = <<-VERSE
 No more bottles of beer on the wall, no more bottles of beer.
 Go to the store and buy some more, 99 bottles of beer on the wall.
